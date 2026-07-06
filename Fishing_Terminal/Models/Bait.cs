@@ -2,7 +2,7 @@ using System;
 
 namespace Model
 {
-    class Rod
+    class Bait
     {
     }
 }
