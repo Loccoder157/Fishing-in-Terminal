@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/Fishing-in-Terminal/Fishing_in_Terminal/Fishing_in_Terminal.csproj": {}
+    "/workspaces/Fishing-in-Terminal/Fishing_Terminal/Fishing_Terminal.csproj": {}
   },
   "projects": {
-    "/workspaces/Fishing-in-Terminal/Fishing_in_Terminal/Fishing_in_Terminal.csproj": {
+    "/workspaces/Fishing-in-Terminal/Fishing_Terminal/Fishing_Terminal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/Fishing-in-Terminal/Fishing_in_Terminal/Fishing_in_Terminal.csproj",
-        "projectName": "Fishing_in_Terminal",
-        "projectPath": "/workspaces/Fishing-in-Terminal/Fishing_in_Terminal/Fishing_in_Terminal.csproj",
+        "projectUniqueName": "/workspaces/Fishing-in-Terminal/Fishing_Terminal/Fishing_Terminal.csproj",
+        "projectName": "Fishing_Terminal",
+        "projectPath": "/workspaces/Fishing-in-Terminal/Fishing_Terminal/Fishing_Terminal.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/Fishing-in-Terminal/Fishing_in_Terminal/obj/",
+        "outputPath": "/workspaces/Fishing-in-Terminal/Fishing_Terminal/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
