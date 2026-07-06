@@ -1,0 +1,15 @@
+/workspaces/Fishing-in-Terminal/Fishing_Terminal/bin/Debug/net10.0/Fishing_Terminal
+/workspaces/Fishing-in-Terminal/Fishing_Terminal/bin/Debug/net10.0/Fishing_Terminal.deps.json
+/workspaces/Fishing-in-Terminal/Fishing_Terminal/bin/Debug/net10.0/Fishing_Terminal.runtimeconfig.json
+/workspaces/Fishing-in-Terminal/Fishing_Terminal/bin/Debug/net10.0/Fishing_Terminal.dll
+/workspaces/Fishing-in-Terminal/Fishing_Terminal/bin/Debug/net10.0/Fishing_Terminal.pdb
+/workspaces/Fishing-in-Terminal/Fishing_Terminal/obj/Debug/net10.0/Fishing_Terminal.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Fishing-in-Terminal/Fishing_Terminal/obj/Debug/net10.0/Fishing_Terminal.AssemblyInfoInputs.cache
+/workspaces/Fishing-in-Terminal/Fishing_Terminal/obj/Debug/net10.0/Fishing_Terminal.AssemblyInfo.cs
+/workspaces/Fishing-in-Terminal/Fishing_Terminal/obj/Debug/net10.0/Fishing_Terminal.csproj.CoreCompileInputs.cache
+/workspaces/Fishing-in-Terminal/Fishing_Terminal/obj/Debug/net10.0/Fishing_Terminal.sourcelink.json
+/workspaces/Fishing-in-Terminal/Fishing_Terminal/obj/Debug/net10.0/Fishing_Terminal.dll
+/workspaces/Fishing-in-Terminal/Fishing_Terminal/obj/Debug/net10.0/refint/Fishing_Terminal.dll
+/workspaces/Fishing-in-Terminal/Fishing_Terminal/obj/Debug/net10.0/Fishing_Terminal.pdb
+/workspaces/Fishing-in-Terminal/Fishing_Terminal/obj/Debug/net10.0/Fishing_Terminal.genruntimeconfig.cache
+/workspaces/Fishing-in-Terminal/Fishing_Terminal/obj/Debug/net10.0/ref/Fishing_Terminal.dll
