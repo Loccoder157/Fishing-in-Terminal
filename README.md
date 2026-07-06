@@ -1,75 +1,141 @@
-# 🎣 Terminal Fishing Game
+# Fishing Terminal Game Design
 
-A simple fishing RPG built in **C#** that runs entirely in the terminal.
-The goal of this project is to practice object-oriented programming,
-collections, file handling, and game logic without using a graphical
-interface.
+## 1. Player
 
-## Features
+-   Level, EXP, Coins
+-   Current Rod, Current Bait, Current Region
+-   Stats: Luck, Fishing Power
+-   Unlock regions by level.
 
--   Catch fish with random rarity
--   Inventory system
--   Sell fish for gold
--   Upgrade fishing rods
--   Multiple fishing locations
--   Player progression (planned)
--   Save/Load system (planned)
+## 2. Fishing Loop
 
-## Tech Stack
+1.  Choose region
+2.  Choose rod
+3.  Choose bait
+4.  Cast line
+5.  Wait (random)
+6.  Roll rarity
+7.  Roll fish
+8.  Roll size/weight
+9.  Reward EXP & coins
+10. Store fish
 
--   C#
--   .NET
--   Console Application
+## 3. Rods
 
-## Project Structure
+Fields: - Name - Price - Required Level - Luck - Power - Durability -
+Rare Bonus - Size Bonus
+
+## 4. Fish
+
+Fields: - Name - Region - Min/Max Size - Min/Max Weight - Required
+Level - Rarity - Sell Price - EXP - Favorite Bait - Time - Weather
+
+## 5. Baits
+
+-   Name
+-   Price
+-   Luck Bonus
+-   Rare Bonus
+-   Target Fish
+
+## 6. Regions
+
+River, Lake, Ocean, Swamp, Ice Lake, Volcano, Deep Sea
+
+Each region: - Required Level - Fish List - Unlock Cost - Weather
+Modifier
+
+## 7. Shop
+
+Buy: - Rods - Baits - Backpack - Boat Sell: - Fish - Treasure
+
+## 8. Inventory
+
+-   Fish
+-   Rods
+-   Baits
+-   Materials
+-   Treasure
+
+## 9. Fish Book
+
+Track: - Total caught - Largest size - Largest weight - Completion %
+
+## 10. Quests
+
+Daily and permanent quests.
+
+## 11. Achievements
+
+-   First Fish
+-   100 Fish
+-   Legendary Hunter
+-   Millionaire
+
+## 12. Weather
+
+Sunny, Rain, Fog, Storm
+
+## 13. Time
+
+Morning, Noon, Evening, Night
+
+## 14. Economy
+
+Coins from fish, quests, treasure.
+
+## 15. Save
+
+Save JSON: - Player - Inventory - Regions - Rods - Fish Book -
+Achievements
+
+## Suggested Folder Structure
 
 ``` text
-Game
-Player
-Fish
-Rod
-Inventory
-Location
-Shop
-SaveManager
+FishingTerminal/
+│
+├── Program.cs
+├── Data/
+├── Models/
+│   ├── Fish.cs
+│   ├── Rod.cs
+│   ├── Bait.cs
+│   ├── Player.cs
+│   ├── Region.cs
+│   └── Inventory.cs
+├── Services/
+│   ├── FishingService.cs
+│   ├── SaveService.cs
+│   ├── ShopService.cs
+│   └── QuestService.cs
+├── UI/
+└── Saves/
 ```
 
-## Roadmap
+## Development Roadmap
 
-### Version 0.1
+### Phase 1
 
--   [x] Basic fishing
--   [x] Inventory
--   [x] Selling fish
+-   Fishing
+-   Player
+-   Fish
+-   Rod
+-   Shop
+-   Inventory
+-   Save
 
-### Version 0.2
+### Phase 2
 
--   [ ] Rod upgrades
--   [ ] Shop
--   [ ] Fish rarity
+-   Regions
+-   Baits
+-   Fish Book
+-   Player Level
 
-### Version 0.3
+### Phase 3
 
--   [ ] Save / Load
--   [ ] Quests
--   [ ] Player level
-
-### Version 1.0
-
--   [ ] Weather system
--   [ ] Day / Night cycle
--   [ ] Achievements
--   [ ] Legendary fish
-
-## Goals
-
-This project is mainly for learning:
-
--   Object-Oriented Programming (OOP)
--   Clean code
--   Project structure
--   Git & GitHub workflow
-
-## License
-
-This project is created for educational purposes.
+-   Quests
+-   Achievements
+-   Weather
+-   Time
+-   Treasure
+-   Titles
