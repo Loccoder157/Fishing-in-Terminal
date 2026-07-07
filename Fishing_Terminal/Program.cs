@@ -1,6 +1,6 @@
 ﻿using System;
 using Model;
-
+using Data;
 
 namespace Main
 {
@@ -8,12 +8,13 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            Fish fish = new Fish("test", 5, 10, 20, 5, 0, 0);
-            Console.WriteLine(fish.Size);
-            fish.CaculatorSize(0, 0);
-            Console.WriteLine(fish.Size);
-            Console.WriteLine(fish.SellCost());
-            Console.WriteLine(fish.SellExp());
+            FishData fishData = new FishData();
+            List<Fish> ListFish = fishData.LoadFish();
+            foreach (Fish f in ListFish)
+            {
+                f.ShowInfo();
+                Console.WriteLine();
+            }
         }
     }
 }

@@ -25,6 +25,10 @@ namespace Model
             this.Rarity = rarity;
             this.Region = region;
         }
+        public void ShowInfo()
+        {
+            Console.WriteLine($"Name: {Name} \nMinsize: {MinSize} \nMaxsize: {MaxSize} \nCost: {Cost} \nExp: {Exp} \nRarity: {Rarity} \nRegion: {Region}");
+        }
         public void CaculatorSize(double power, double efficiency)
         {
             int size = Random.Shared.Next(MinSize, MaxSize + 1);
