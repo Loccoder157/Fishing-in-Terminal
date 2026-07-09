@@ -13,5 +13,9 @@ namespace Model
             this.Cost = cost;
             this.Luck = luck;
         }
+        public void ShowInfo()
+        {
+            Console.WriteLine($"Name: {Name} \nCost: {Cost} \nLuck: {Luck}");
+        }
     }
 }

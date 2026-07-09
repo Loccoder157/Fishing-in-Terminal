@@ -8,11 +8,12 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            FishData fishData = new FishData();
-            List<Fish> ListFish = fishData.LoadFish();
-            foreach (Fish f in ListFish)
+            BaitData regionData = new BaitData();
+            List<Bait> regions = new List<Bait>();
+            regions = regionData.LoadBait();
+            foreach(Bait r in regions)
             {
-                f.ShowInfo();
+                r.ShowInfo();
                 Console.WriteLine();
             }
         }

@@ -1,0 +1,4 @@
+Whispering Pond;1;A quiet pond with common fish.;1
+Moonlit River;2;A mysterious river flowing under moonlight.;5
+Emerald Lake;3;A magical lake inhabited by rare species.;20
+Forgotten Sea;4;The ancient sea where legendary creatures dwell.;50
