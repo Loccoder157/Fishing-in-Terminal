@@ -8,12 +8,16 @@ namespace Model
         public int Coin{get; private set;}
         public int Level{get; private set;}
         public int Exp{get; private set;}
-        public Player(string name, int coin, int level, int exp)
+        public Rod Rod{get; private set;} = null!;
+        public Bait Bait{get; private set;} = null!;
+        public int RegionId{get; private set;}
+        public Player(string name, int coin, int level, int exp, int regionid)
         {
             this.Name = name;
             this.Coin = coin;
             this.Level = level;
             this.Exp = exp;
+            this.RegionId = regionid;
         }
         public void AddCoin(int value)
         {
@@ -34,6 +38,18 @@ namespace Model
                 Console.WriteLine("Số coin không đủ");
                 return false;
             }
+        }
+        public void SetRod(Rod rod)
+        {
+            this.Rod = rod;
+        }
+        public void SetBait(Bait bait)
+        {
+            this.Bait = bait;
+        }
+        public void SetRegionId(int id)
+        {
+            this.RegionId = id;
         }
     }
 }

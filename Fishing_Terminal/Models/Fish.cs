@@ -37,7 +37,7 @@ namespace Model
         }
         public int SellCost()
         {
-            return Size * Cost;
+            return (int)(Size * Cost);
         }
         public int SellExp()
         {
